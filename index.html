@@ -17,7 +17,6 @@
     }
 
     .envelope {
-      background-image: "img/sfondo.png";
       position: relative;
       display: flex;
       align-items: center;
@@ -74,7 +73,7 @@
     .domanda p {
       font-family: 'Great Vibes', cursive;
       font-size: 1.5rem;
-      color: #5e3023;
+      color: #000000;
       margin-bottom: 1rem;
     }
 
@@ -85,15 +84,15 @@
     }
 
     .bottoni a {
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 1.2em;
-            text-decoration: none;
-            background-color: #c4a48a;
-            color: white;
-            border-radius: 5px;
-            transition: background 0.3s;
-            cursor: pointer;
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 1.2em;
+      text-decoration: none;
+      background-color: #c4a48a;
+      color: white;
+      border-radius: 5px;
+      transition: background 0.3s;
+      cursor: pointer;
     }
 
     .bottoni a:hover {
@@ -115,7 +114,7 @@
     <div class="domanda">
       <p>Sarai presente?</p>
       <div class="bottoni">
-        <a id="whatsapp-btn-si">Sì</a>
+        <a id="whatsapp-btn-si" href="https://diegosozio.github.io/matrimonio/">Sì</a>
         <a id="whatsapp-btn-no">No</a>
       </div>
     </div>
@@ -132,7 +131,6 @@
     }
 
     // WhatsApp Confirmation Message
-    document.getElementById("whatsapp-btn-si").href="https://api.whatsapp.com/send?phone=+393405407313&text=Ciao Laura e Diego! 🎉%0A%0ASiamo felicissimi di partecipare al vostro matrimonio!%0A%0ASaremo in *[inserisci numero]* persone:%0A- [Nome 1]%0A- [Nome 2]%0A- [Nome 3]%0A%0AEventuali Allergie o intolleranze alimentari:%0A- [Nome 1]: [Allergia/Intolleranza]%0A%0ANon vediamo l'ora di festeggiare con voi! 💍💕"
     document.getElementById("whatsapp-btn-no").href="https://api.whatsapp.com/send?phone=+393405407313&text=Ciao Laura e Diego! purtroppo non saremo presenti al vostro matrimonio"
 
 
